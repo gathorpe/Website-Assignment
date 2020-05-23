@@ -1,11 +1,12 @@
 
+
 .header{
   padding: 0;
  position: sticky;
   background-color: black;
  text-align: center;
  text-size-adjust: larger;
- height:10%;
+ 
 }
 
 body, html { 
@@ -30,7 +31,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 50vh;
-	font-size: 20px
+	font-size: 20px;
 }
 .formContainer > form > input, .formContainer > form > textarea {
     font-size: 14px;
@@ -122,6 +123,7 @@ body {
 	color: #eac434;
 	outline: 1px solid #000033; /* avoid gap */
 	height:100%;
+	
 }
 
 .side-right {
@@ -130,8 +132,17 @@ body {
 	color: #42033d;
 	outline: 1px solid #ffa5ab; /* avoid gap */
 	height:100% ;
+	
 }
 
+
+ #starContainer{
+	 position: absolute; 
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 100%;
+ }
 
 /* Intro content, profile image and name, back button */
 .intro-content {
@@ -144,6 +155,7 @@ body {
 	-webkit-transform: translateY(-50%) translateX(-50%);
 	transform: translateY(-50%) translateX(-50%);
 }
+
 
 .profile {
 	margin: 0 auto;
@@ -583,6 +595,15 @@ div.gallery {
 	height: 50vh;
 	width:100%;}
 
+	.starContainer{
+		width: 100vh;
+		height: 50vh;
+	}
+	.container{
+		height: 50%;
+		width: 100;
+	}
+
 	.open-right .side-right {
 		-webkit-transform: translateX(-225%);
 		transform: translateX(-175%);
@@ -611,7 +632,7 @@ div.gallery {
 		width: 100%;
 		
 	}
-
+   
 	.page-right {
 		left: 0;
 		padding-left: 0%;
@@ -649,6 +670,14 @@ div.gallery {
 		display: table;
 
 	}
-
+	
 }
+
+.petal{
+    width:35px;
+    height:35px;
+    position: relative;
+    background: url(https://image.ibb.co/kyUHab/rose.png);
+	background-size: 100% 100%;
+  }
 
